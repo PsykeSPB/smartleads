@@ -1,0 +1,13 @@
+thead tr th {
+  cursor: pointer;
+}
+th,
+td {
+  padding: 0.25rem 0.75rem;
+}
+td {
+  text-align: right;
+}
+.name {
+  text-align: left;
+}
