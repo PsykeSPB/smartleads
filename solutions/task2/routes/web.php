@@ -13,7 +13,3 @@
 Route::get('/', 'MessagesController@create');
 Route::post('/', 'MessagesController@submit');
 Route::get('/messages', 'MessagesController@getMessages');
-
-Route::get('/welcome', function () {
-    return view('welcome');
-});
