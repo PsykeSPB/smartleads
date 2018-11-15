@@ -3,13 +3,6 @@
 @section('content')
 <div class='container d-flex flex-column justify-content-center align-items-center' style="width:100%; height:100vh;">
     <h2 class="mt-5 mb-4">Отправьте свое сообщение</h2>
-    <noscript>
-        Для корректной работы данной странице необходимо разрешение JavaScript<br>
-        Информацию о том, как активировать JavaScript вы можете найти 
-        <a href="https://www.enable-javascript.com/ru/#pnlChromeNew"
-        title="Инструкция по активации JavaScript">здесь</a>.
-    </noscript>
-
     {!! Form::open(['url' => '/']) !!}
     <div class="form-group">
         {{ Form::label('name', 'Имя:') }}
